@@ -1,0 +1,128 @@
+/* Import Fonts */
+@import url(http://fonts.googleapis.com/css?family=Coustard|Open+Sans);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight:400;
+	-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+	color: #b7b7b7;
+	background: #000;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Coustard', serif;
+	color:#fff;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+h1{font-size: 63px; line-height: 70px; padding: 0; margin: 0;}
+h5{font-size: 28px; line-height: 35px; padding: 0; margin: 0; color: #fff;}
+
+a {
+	color: #b7b7b7;
+	text-decoration:none;
+	font-weight: normal;
+}
+a:hover {text-decoration:underline;}
+
+
+#maximage {
+	display:none;
+	position:fixed !important;
+}
+
+.gradient {
+	left:0;
+	height:100%;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:999;
+}
+
+.show{display: block;}
+.hide{opacity: 0;}
+
+/* Set Page Elements */
+.content { 
+	float:left;
+	margin:40px;
+	position:absolute;
+	top:200px;
+	width:600px;
+	z-index:9999;
+	-webkit-font-smoothing:antialiased;
+}
+
+#logo {
+	top:20%;
+	height:auto;
+	right:40px;
+	position:absolute;
+	width:20%;
+	z-index:1000;
+	color: #fff;
+}
+
+.fernandes {
+	position: absolute;
+	width:100%;
+	z-index: 1000;
+	height:  auto;
+	bottom: 40px;
+}
+
+
+.end{
+	display: block;
+	position:absolute;
+	bottom: 0px;
+	left: 40px;
+	z-index:1000;
+	width: 80%;
+	height: 20%;
+}
+.end p {
+	display: line;
+	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 15px;
+	padding-right: 5px;
+	float: left;
+	border-left: 0.3px solid #b7b7b7;
+	color: #fff;
+}
+
+
+.social-nav {
+	position:absolute;
+	top: 0px;
+	left: 40px;
+}
+.social-nav ul {margin: 0; padding:0;}
+.social-nav ul li{
+	list-style: none;
+	display:block;
+	float: left;
+	background: #b82025;
+	padding:100px 10px 5px 10px;
+	margin: 1px;
+	opacity: .5;
+}
+.social-nav ul li:hover {opacity: 1;}
+
+
+#arrow_left, #arrow_right {
+	bottom:30px;
+	height:42px;
+	position:absolute;
+	right:40px;
+	width:42px;
+	z-index:1000;
+}
+#arrow_left {
+	right:95px;
+}
+
